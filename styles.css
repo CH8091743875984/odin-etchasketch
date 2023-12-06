@@ -11,7 +11,7 @@
 }
 
 .gridSquare {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     width: calc(100%/16);
     height: 100%;
 }
