@@ -1,17 +1,18 @@
 #container {
-    height: 336px;
-    width: 336px;
+    height: 1000px;
+    width: 1000px;
     border: solid 1px black;
 }
 
 .gridRow {
     display: flex;
-    width:336px;
+    width:100%;
+    height: calc(100%/16)
 }
 
 .gridSquare {
-    
-    width: 20px;
-    height: 20px;
+    border: solid 1px black;
+    width: calc(100%/16);
+    height: 100%;
 }
 
